@@ -1,0 +1,105 @@
+*
+{
+    margin: 0;
+    font-family: 'arcadeclassicregular';
+    color:rgb(235, 235, 7);
+}
+
+body
+{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(27,27,129,1) 40%, rgba(0,212,255,1) 100%);
+}
+
+header
+{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-size: 32px;
+    text-align: center;
+    margin-bottom:25px;
+
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(27,27,129,1) 40%, rgba(0,212,255,1) 100%);
+}
+
+.result-div
+{
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 24px;
+}
+
+.player-choice-img, .computer-choice-img
+{
+    border: 2px solid black;
+    height: 200px;
+    width: 200px;    
+    display: flex;
+    justify-content: center;
+}
+
+.scores
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 175px;   
+    font-size: 20px;
+}
+
+.player-score-div, .computer-score-div
+{   
+    margin-bottom: 25px;
+}
+
+.pick-your-choice-text
+{
+    text-align:center;
+    margin-bottom: 25px;
+    font-size: 26px;
+}
+
+.images-of-choices
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-bottom: 25px;
+}
+
+.choices
+{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap:25px;
+}
+
+.images-of-choices > img 
+{
+    height:200px;
+    width:200px;
+}
+
+.scores > p 
+{
+    background-color: none;
+}
+
+.choices > img
+{
+    background-color: transparent;
+    height:100px;
+    width:100px;
+    cursor:pointer;
+    border: 1px solid black;
+}
+
+.rock-choice:hover, .paper-choice:hover, .scissors-choice:hover
+{
+    cursor:pointer;
+}
+
+
